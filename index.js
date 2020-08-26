@@ -21,3 +21,13 @@ class Triangle extends Polygon{
   }
   
 }
+
+class Square extends Polygon{
+  get area(){
+    return Math.sqrt(this.perimeter/4);
+  }
+  
+  get isValid(){
+    return this.arr[0] === this.arr[1] && this.arr[3] === this.arr[1] 
+  }
+}
