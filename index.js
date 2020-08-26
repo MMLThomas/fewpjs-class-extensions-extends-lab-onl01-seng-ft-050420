@@ -6,7 +6,7 @@ class Polygon{
   }
   
   get countSides(){
-    return this.arr.reduce((e,total) => 1 + total);
+    return this.arr.reduce((total, e) => 1 + total);
   }
   
 }
