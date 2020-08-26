@@ -24,7 +24,7 @@ class Triangle extends Polygon{
 
 class Square extends Polygon{
   get area(){
-    return Math.pow((this.perimeter/4)*(this.perimeter/4));
+    return (this.perimeter/4)*(this.perimeter/4);
   }
   
   get isValid(){
