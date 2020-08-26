@@ -6,7 +6,6 @@ class Polygon{
   }
   
   get countSides(){
-    let sides
     return this.arr.map(sides += 1);
   }
   
